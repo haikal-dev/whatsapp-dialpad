@@ -4,4 +4,4 @@ This is simple whatsapp dialpad. This allow user to dial in whatsapp number with
 
 ## Want to use for different countries?
 
-Just simply edit in javascrip area, and remove 6 in window.location. This '6' refer to Malaysia country code.
+Just simply edit in javascript area, and remove 6 in window.location. This '6' refer to Malaysia country code.
