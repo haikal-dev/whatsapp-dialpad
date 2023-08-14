@@ -61,28 +61,7 @@
 </div>
 <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-<script id="rendered-js" >
-var count = 0;
-
-$(".digit").on('click', function () {
-  var num = $(this).clone().children().remove().end().text();
-  if (count < 11) {
-    $("#output").append('<span>' + num.trim() + '</span>');
-
-    count++;
-  }
-});
-
-$('.fa-long-arrow-left').on('click', function () {
-  $('#output span:last-child').remove();
-  count--;
-});
-
-$('#call').on('click', function(){
-    window.location = 'https://api.whatsapp.com/send?phone=6' + $('#output').text();
-});
-</script>
+<script src="main.js"></script>
 
 </body>
 </html>
